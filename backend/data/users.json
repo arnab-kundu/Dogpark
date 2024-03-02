@@ -1,0 +1,169 @@
+[
+  {
+    "_id": "1006",
+    "name": "Alexis",
+    "occupation": "Owner of a PR Firm, Publicist and Organizer of Singles Week",
+    "friends": ["1007", "1008", "1009"],
+    "avatarUrl": "/images/profile-pics/000001.jpg"
+  },
+  {
+    "_id": "1007",
+    "name": "Twyla",
+    "occupation": "Ready to serve you at Cafe Tropical🍍",
+    "friends": ["1006", "1008", "1009"],
+    "avatarUrl": "/images/profile-pics/000002.jpg"
+  },
+  {
+    "_id": "1008",
+    "name": "Roland",
+    "occupation": "Town Mayor",
+    "friends": ["1006", "1007", "1009", "1032"],
+    "avatarUrl": "/images/profile-pics/000003.jpg"
+  },
+  {
+    "_id": "1009",
+    "name": "Harry",
+    "occupation": "Still in College",
+    "friends": ["1006", "1008", "1007"],
+    "avatarUrl": "/images/profile-pics/000004.jpg"
+  },
+  {
+    "_id": "1013",
+    "name": "Caroline",
+    "occupation": "Model",
+    "friends": ["1014", "1018", "1023"],
+    "avatarUrl": "/images/profile-pics/000005.jpg"
+  },
+  {
+    "_id": "1014",
+    "name": "Patricia",
+    "occupation": "Retired",
+    "friends": ["1013", "1015", "1016", "1017"],
+    "avatarUrl": "/images/profile-pics/000006.jpg"
+  },
+  {
+    "_id": "1015",
+    "name": "Andrew",
+    "occupation": "Photographer",
+    "friends": ["1014", "1016", "1017"],
+    "avatarUrl": "/images/profile-pics/000007.jpg"
+  },
+  {
+    "_id": "1016",
+    "name": "Jun",
+    "occupation": "Web Developer, open to collaborate on React projects",
+    "friends": ["1014", "1015", "1017"],
+    "avatarUrl": "/images/profile-pics/000008.jpg"
+  },
+  {
+    "_id": "1017",
+    "name": "Mutt",
+    "occupation": "Pine Cone Harvester",
+    "friends": ["1032", "1006", "1007"],
+    "avatarUrl": "/images/profile-pics/000009.jpg"
+  },
+  {
+    "_id": "1018",
+    "name": "Paolo",
+    "occupation": "Social influencer. 📧 Business Enquiries: paolo@dogpark.com",
+    "friends": ["1013", "1019", "1020", "1021"],
+    "avatarUrl": "/images/profile-pics/000014.jpg"
+  },
+  {
+    "_id": "1019",
+    "name": "Jim",
+    "occupation": "A good boy",
+    "friends": ["1018", "1020", "1021"],
+    "avatarUrl": "/images/profile-pics/000016.jpg"
+  },
+  {
+    "_id": "1020",
+    "name": "Angelo",
+    "occupation": "I like to Rock n Roll 🎸",
+    "friends": ["1019", "1018", "1021"],
+    "avatarUrl": "/images/profile-pics/000017.jpg"
+  },
+  {
+    "_id": "1021",
+    "name": "Stephanie",
+    "occupation": "Laid off due to Covid-19",
+    "friends": ["1019", "1020", "1018"],
+    "avatarUrl": "/images/profile-pics/000018.jpg"
+  },
+  {
+    "_id": "1022",
+    "name": "Matilda",
+    "friends": ["1023", "1024", "1025"],
+    "avatarUrl": "/images/profile-pics/000019.jpg"
+  },
+  {
+    "_id": "1023",
+    "name": "Abby",
+    "occupation": "Yogi Girl ",
+    "friends": ["1013", "1022", "1024", "1025"],
+    "avatarUrl": "/images/profile-pics/000021.jpg"
+  },
+  {
+    "_id": "1024",
+    "name": "Johnny",
+    "occupation": "Former CEO of the nation’s second-largest chain of video rental stores. Currently: Co-owner of the Town's Motel",
+    "friends": ["1008", "1032", "1006", "1029"],
+    "avatarUrl": "/images/profile-pics/000023.jpg"
+  },
+  {
+    "_id": "1025",
+    "name": "Yasin",
+    "occupation": "On Sabbatical...",
+    "friends": ["1023", "1024", "1022"],
+    "avatarUrl": "/images/profile-pics/000026.jpg"
+  },
+  {
+    "_id": "1026",
+    "name": "Felix",
+    "occupation": "Journalist",
+    "friends": ["1027", "1028", "1029"],
+    "avatarUrl": "/images/profile-pics/000027.jpg"
+  },
+  {
+    "_id": "1027",
+    "name": "Amanda",
+    "occupation": "Galley Gossiper  ✈️",
+    "friends": ["1026", "1028", "1029"],
+    "avatarUrl": "/images/profile-pics/000028.jpg"
+  },
+  {
+    "_id": "1028",
+    "name": "Cody",
+    "occupation": "Surfer",
+    "friends": ["1027", "1026", "1029"],
+    "avatarUrl": "/images/profile-pics/000029.jpg"
+  },
+  {
+    "_id": "1029",
+    "name": "Moira",
+    "occupation": "Soap Opera Star, awaiting my return on silver screen",
+    "friends": ["1027", "1028", "1026"],
+    "avatarUrl": "/images/profile-pics/000093.jpg"
+  },
+  {
+    "_id": "1030",
+    "name": "Ted",
+    "occupation": "Vet, currently stationed in the Galapagos",
+    "friends": ["1031", "1032"],
+    "avatarUrl": "/images/profile-pics/000094.jpg"
+  },
+  {
+    "_id": "1031",
+    "name": "David",
+    "occupation": "Founder of Rose Apothecary",
+    "friends": ["1030", "1032"],
+    "avatarUrl": "/images/profile-pics/000147.jpg"
+  },
+  {
+    "_id": "1032",
+    "name": "Jocelyn",
+    "occupation": "High School Teacher",
+    "friends": ["1031", "1030", "1008"],
+    "avatarUrl": "/images/profile-pics/000153.jpg"
+  }
+]
