@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ const SignIn = ({
 }) => {
   const [searchValue, setSearchValue] = useState("");
   const [errMessage, setErrMessage] = useState(false);
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const onChange = (e) => {
     setSearchValue(e.target.value);
@@ -30,7 +30,7 @@ const SignIn = ({
         setSignedInUser(users[i].name);
         setUserFriend(users[i].friends);
         setTheUser(users[i]._id);
-        history.push("/");
+        navigate("/");
       } else {
         setErrMessage(`${searchValue} does not exist`);
       }

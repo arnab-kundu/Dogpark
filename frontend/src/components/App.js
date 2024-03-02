@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 import GlobalStyles from "./GlobalStyles";
 import Homepage from "./Homepage";
@@ -32,14 +32,10 @@ const App = () => {
         signedInUser={signedInUser}
         setSignedInUser={setSignedInUser}
       />
-      <Switch>
-        <Route exact path="/">
-          <Homepage users={users} userFriend={userFriend} theUser={theUser} />
-        </Route>
-        <Route exact path="/profile/:id">
-          <ProfilePage users={users} />
-        </Route>
-        <Route exact path="/sign-in">
+      <Routes>
+        <Route exact path="/" element={<Homepage users={users} userFriend={userFriend} theUser={theUser} />} />
+        <Route exact path="/profile/:id" element={<ProfilePage users={users} />} />
+        <Route exact path="/sign-in" element={
           <SignIn
             users={users}
             btnDisabled={btnDisabled}
@@ -48,9 +44,8 @@ const App = () => {
             setSignedInUser={setSignedInUser}
             setUserFriend={setUserFriend}
             setTheUser={setTheUser}
-          />
-        </Route>
-      </Switch>
+          />} />
+      </Routes>
     </BrowserRouter>
   );
 };

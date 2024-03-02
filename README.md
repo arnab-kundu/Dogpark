@@ -22,17 +22,17 @@ This repository contains a frontend and a backend folder. This means that each f
 
 1. Open a terminal in VS Code
 2. Type `cd frontend`
-3. Type `yarn install`
+3. Type `yarn install` or `npm install`
 
-Use `yarn dev:frontend` to start the frontend dev environment.
+Use `yarn dev:frontend` or `npm run dev:frontend` to start the frontend dev environment.
 
 ### The Backend
 
 1. Open _another_ terminal in VS Code
 2. Type `cd backend`
-3. Type `yarn install`
+3. Type `yarn install` or `npm install`
 
-Use `yarn dev:backend` to start the backend dev environment.
+Use `yarn dev:backend` or `npm start` to start the backend dev environment.
 
 Once your all set up head over to http://localhost:3000/ in your browser to view the project.
 
